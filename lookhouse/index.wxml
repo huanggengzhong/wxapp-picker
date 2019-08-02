@@ -1,0 +1,18 @@
+<view class='view-page'>
+  <navbar page-name="{{title}}" style="height:{{navH}}px"></navbar>
+  <view class='page-content'>
+<!-- 时间联动 -->
+<button bindtap="showPicker_04">多列picker 返回对象数组</button>
+<view>选择的数据是：{{picker_04_data}}</view>
+<view>两列的索引是：{{picker_04_index}}</view>
+<picker
+	isShowPicker="{{isShow_04}}"
+	keyWordsOfShow="str"
+	bindsure="sureCallBack_04"
+	bindcancle="cancleCallBack_04"
+	scrollType="normal"
+	listData="{{listData_04}}"
+></picker>
+  
+  </view>
+</view>

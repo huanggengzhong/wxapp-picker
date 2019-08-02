@@ -1,0 +1,25 @@
+/* pages/lookhouse/index.wxss */
+
+page {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.view-page {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  position: absolute;
+  overflow: hidden;
+}
+
+.page-content {
+   padding: 55rpx;
+  box-sizing: border-box;
+  position: relative;
+  overflow-y: auto;
+}
